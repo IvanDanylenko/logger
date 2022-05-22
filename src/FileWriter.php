@@ -2,6 +2,9 @@
 
 namespace IvanDanylenko\Logger;
 
+/**
+ * Writes logs to file on filesystem
+ */
 class FileWriter implements WriterInterface
 {
     private $formatter;
